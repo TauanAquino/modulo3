@@ -1,4 +1,5 @@
 # Django settings for pizzaria project.
+# Exemplo
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -119,6 +120,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
+    'pizzaria.entrega',
 )
 
 # A sample logging configuration. The only tangible logging
