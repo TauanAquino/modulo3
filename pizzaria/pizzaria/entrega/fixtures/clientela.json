@@ -1,0 +1,282 @@
+[
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0000", 
+      "fone": "3952-9927", 
+      "logradouro": "Rua Giralua", 
+      "numero": 900, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 0
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0001", 
+      "fone": "3906-9456", 
+      "logradouro": "Rua Giraterra", 
+      "numero": 250, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 1
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0002", 
+      "fone": "3975-2147", 
+      "logradouro": "Rua Giraterra", 
+      "numero": 122, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 2
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0003", 
+      "fone": "3961-4500", 
+      "logradouro": "Rua Giramarte", 
+      "numero": 757, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 3
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0004", 
+      "fone": "3974-2084", 
+      "logradouro": "Rua Giramarte", 
+      "numero": 941, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 4
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0005", 
+      "fone": "3964-3676", 
+      "logradouro": "Rua Giraterra", 
+      "numero": 332, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 5
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0006", 
+      "fone": "3908-8589", 
+      "logradouro": "Rua Giraterra", 
+      "numero": 659, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 6
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0007", 
+      "fone": "3936-5531", 
+      "logradouro": "Rua Giralua", 
+      "numero": 511, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 7
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0008", 
+      "fone": "3935-8589", 
+      "logradouro": "Rua Giralua", 
+      "numero": 563, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 8
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0009", 
+      "fone": "3997-8327", 
+      "logradouro": "Rua Girassol", 
+      "numero": 584, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 9
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0010", 
+      "fone": "3953-5952", 
+      "logradouro": "Rua Giralua", 
+      "numero": 718, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 10
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0011", 
+      "fone": "3913-6227", 
+      "logradouro": "Rua Giralua", 
+      "numero": 111, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 11
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0012", 
+      "fone": "3955-7090", 
+      "logradouro": "Rua Giramarte", 
+      "numero": 987, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 12
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0013", 
+      "fone": "3904-1709", 
+      "logradouro": "Rua Giralua", 
+      "numero": 248, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 13
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0014", 
+      "fone": "3957-1024", 
+      "logradouro": "Rua Giramarte", 
+      "numero": 400, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 14
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0015", 
+      "fone": "3957-0755", 
+      "logradouro": "Rua Giramarte", 
+      "numero": 774, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 15
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0016", 
+      "fone": "3992-6277", 
+      "logradouro": "Rua Giramarte", 
+      "numero": 988, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 16
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0017", 
+      "fone": "3905-3930", 
+      "logradouro": "Rua Giramarte", 
+      "numero": 594, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 17
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0018", 
+      "fone": "3949-3299", 
+      "logradouro": "Rua Giramarte", 
+      "numero": 535, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 18
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0019", 
+      "fone": "3909-7677", 
+      "logradouro": "Rua Giramarte", 
+      "numero": 842, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 19
+  }
+]
