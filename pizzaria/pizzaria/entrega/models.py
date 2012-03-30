@@ -15,12 +15,15 @@ class Cliente(models.Model):
     obs = models.TextField(verbose_name=u'observação', blank=True)
     
     class Meta:
-        ordering = ('nome','fone')
+        ordering = ['fone']
         unique_together = ('fone','ramal')
         db_table = 'pedidos_cliente'
     
     def __unicode__(self):
-        return self.nome
+        if self.ramal:
+            return self.fone + ' - ' + self.nome + ' r. ' + self.ramal
+        else:
+            return self.fone + ' - ' + self.nome
     
     def endereco(self):
         if self.complemento:
@@ -41,6 +44,9 @@ class Pedido(models.Model):
     entregador = models.ForeignKey('Entregador', null = True, blank = True)
     partida = models.TimeField(null=True, blank = True)
     
+    def __unicode__(self):
+        return '%s - %s' % (self.inclusao.strftime('%H:%M:%S'), self.cliente.nome)
+    
 class Entregador(models.Model):
     nome = models.CharField(max_length=64)
     
@@ -49,3 +55,28 @@ class Entregador(models.Model):
     
     def __unicode__(self):
         return self.nome
+
+SABORES = [('mussarela', 'Mussarela'),
+           ('calabresa', 'Calabresa'),
+           ('portuguesa', 'Portuguesa'),
+           ('atum', 'Atum'), 
+            ]
+
+class Pizza(models.Model):
+    pedido = models.ForeignKey(Pedido)
+    sabor1 = models.CharField(u'sabor 1', max_length = 32, choices=SABORES)
+    coberto1 = models.BooleanField(u'cob.')
+    sabor2 = models.CharField(u'sabor 2', max_length = 32, choices=SABORES, blank=True)
+    coberto2 = models.BooleanField(u'cob.')
+    obs = models.TextField(blank=True)
+    
+    def __unicode__(self):
+        sabor = self.sabor1
+        if self.coberto1:
+            sabor += '  coberta'
+        if self.sabor2:
+            sabor2 = self.sabor2
+            if self.coberto2:
+                sabor2 += '  coberta'
+            sabor = u'½ %s, ½ %s' % (sabor, sabor2)
+        return sabor
